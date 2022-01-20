@@ -1,0 +1,292 @@
+*{
+  scroll-behavior: smooth;
+}
+.f-desc{
+  text-align: center !important;
+}
+.jd-logo{
+  max-width:300px;
+  width: 100%;
+}
+.jd-ownerimg{
+  width: 400px; 
+  border-radius: 50%;
+}
+.jd-designserviceimg{
+  width: 400px; 
+  border-radius: 10%;
+}
+
+.jd-iconcolor{
+  color: #C03823;
+}
+
+.jd-contactinfo{
+  font-size:12px;
+}
+
+@media screen and (max-width: 425px) {
+  .jd-ownerimg{
+  width: 100%;
+  }
+
+  .minute{
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+.jd-contactinfoe{
+  font-size: 10px !important;
+}
+
+}
+@media screen and (max-width: 270px) {
+  .jd-contactinfoe{
+    font-size: 5px !important;
+  }
+  
+  }
+
+
+
+.gallery *,.gallery *:before,.gallery *:after{box-sizing:border-box;}
+
+.gallery{display:block;width:100%;margin:0 auto;overflow:hidden;max-width:960px;}
+.gallery .tile{display:block;width:100%;padding:0 0.5em 0.5em 0;}
+.gallery .tile .post{color:#f0f0f0;text-align:center;padding:1em 2em;}
+
+@media screen and (min-width:480px){
+.gallery .tile{width:50%;float:left;}
+.gallery .tile.wide,.gallery .tile.full{width:100%;}
+}
+@media screen and (min-width:960px){
+.gallery .tile{width:33.333%;float:left;}
+.gallery .tile.wide{width:66.667%;}
+}
+@media screen and (min-width:960px){
+.gallery .tile{width:25%;float:left;}
+.gallery .tile.wide{width:50%;}
+}
+
+
+
+
+#testimonials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:100%;
+}
+.testimonial-heading{
+  letter-spacing: 1px;
+  margin: 30px 0px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.testimonial-heading span{
+  font-size: 1.3rem;
+  color: #252525;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.testimonial-box-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width:100%;
+}
+.testimonial-box{
+  width:500px;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+  background-color: #1b1b1b;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+.profile-img{
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.profile-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.profile{
+  display: flex;
+  align-items: center;
+}
+.name-user{
+  display: flex;
+  flex-direction: column;
+}
+.name-user strong{
+  color: white;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+.name-user span{
+  color: #979797;
+  font-size: 0.8rem;
+}
+.reviews{
+  color: #f9d71c;
+}
+.box-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.client-comment p{
+  font-size: 12px;
+  color: white;
+}
+.testimonial-box:hover{
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
+}
+
+@media(max-width:1060px){
+  .testimonial-box{
+      width:45%;
+      padding: 10px;
+  }
+}
+@media(max-width:790px){
+  .testimonial-box{
+      width:100%;
+  }
+  .testimonial-heading h1{
+      font-size: 1.4rem;
+  }
+}
+@media(max-width:340px){
+  .box-top{
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+  }
+  .reviews{
+      margin-top: 10px;
+  }
+}
+::selection{
+  color: #ffffff;
+  background-color: #252525;
+}
+
+
+
+
+
+
+.jd-engman{
+  padding-bottom: 100px;
+}
+
+
+
+@media(max-width:992px){
+.aboutsec{
+  padding-top:416px;
+  text-align: center;
+}
+.jd-engimg {
+  display: none;
+}
+.jd-extraaccman{
+  display: none;
+}
+.jd-buttonmobile{
+  display: none;
+}
+.btn-primary{
+  background: rgb(192 56 35) !important;
+}
+.ajussize{
+  font-size: 16px !important;
+}
+}
+
+@media(min-width:992px){
+  .f-desc{
+    text-align:left;
+  }
+  .jd-buttonpc{
+    display: none;
+  }
+  .jd-desservicepc{
+    width: 50%;
+
+    margin: auto;
+  }
+  .jd-engimg2 {
+    display: none;
+  }
+  .jd-logdes{
+    padding-top: 150px;
+  }
+
+  }
+
+
+
+
+.carocontainer {
+  display: flex;
+
+  margin-top: 20px;
+}
+
+
+
+
+
+.minutes {
+
+  position: relative;
+
+}
+
+.minute {
+  bottom: 0;
+  font-size: 84px;
+  font-weight: bold;
+  height: 0px;
+  opacity: 0;
+  text-align: center;
+
+}
+
+.wipe-in {
+  opacity: 1;
+  transition: transform 3s, opacity 3s;
+  transform: translateY(-100%);
+}
+
+.wipe-out {
+  opacity: 0;
+  transition: transform 2700ms, opacity 2700ms;
+  transform: translateY(-200%);
+}
+
+.minute span {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
